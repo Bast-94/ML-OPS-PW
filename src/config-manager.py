@@ -1,4 +1,5 @@
 import yaml
+import os
 def save_config(dictionnaire, chemin_fichier="config.yml"):
     with open(chemin_fichier, "w") as fichier:
         yaml.dump(dictionnaire, fichier)
